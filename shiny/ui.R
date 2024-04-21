@@ -51,7 +51,10 @@ ui <- fluidPage(
                     </ol></br></br>"),
                     column(3, ""),
                     column(6, align="center", actionLink("calculateWEFE", "Calculate WEFE Nexus Index",  style="color:white; background-color:#446fb7; padding:1.5rem; border-radius:1rem;"))
-                    )
+                    ),
+                column(6, align="center", HTML(
+                  "</br></br><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/RLdkI2lrO3c?si=69-nfZFGWACk7Qy1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+                ))
             ),
             HTML(
                 "<div style=\"display:flex; justify-content:center;\">
